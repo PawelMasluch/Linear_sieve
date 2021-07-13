@@ -59,7 +59,7 @@ void linearSieve(int n){ // we find smallest prime factors, for x in {0,1,2,...,
 		int k = 1;
 		
 		
-		while( P*q <= n ){ // P*q = p^k * q < n
+		while( P*q <= n ){ // P*q = p^k * q <= n
 			
 			// P*q = p^k * q is composite
 			smallestPrimeFactors[ P*q ].prime = p;
