@@ -44,7 +44,7 @@ void linearSieve(int n){ // we find primes x, for x in {0,1,2,...,n} and  MAX_N 
 		int k=1;
 		
 		
-		while( P*q <= n ){ // P*q = p^k * q < n
+		while( P*q <= n ){ // P*q = p^k * q <= n
 			isPrime[ P*q ] = 0; // P*q = p^k * q is composite
 			
 			P *= p;
