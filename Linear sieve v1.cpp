@@ -61,7 +61,7 @@ void linearSieve(int n){ // we find primes x, for x in {0,1,2,...,n} and  MAX_N 
 		
 		if( p*q > n ){ // p*q > n
 		
-			// we find the smallest number, thought cuurently as prime, bigger than q
+			// we find the smallest number, thought currently as prime, bigger than q
 			do{
 				++p;
 			}
